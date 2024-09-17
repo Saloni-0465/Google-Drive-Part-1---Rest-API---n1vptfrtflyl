@@ -43,3 +43,5 @@ app.delete('/file/:fileName', (req, res) => {
 app.listen(port, () => {
     console.log(`File management server running at http://localhost:${port}`);
 });
+
+export default app;
