@@ -6,7 +6,7 @@ const deleteAFile = (fileName) => {
 
     if (fs.existsSync(filePath)) {
         fs.unlinkSync(filePath);
-        return { message: "File deleted successfully" };
+        return { message: "File Deleted Successfully" };
     } else {
         return { message: "File does not exist" };
     }
